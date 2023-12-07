@@ -1,5 +1,6 @@
-### case_covid
-Case realizado com o propósito de fortalecer e mostrar as minhas habilidades relacionadas a engenharia de dados.
+### Case_covid
+Este case foi desenvolvido com o intuito de utilizar as ferramentas do Google Cloud
+Platform (GCP) para a sua solução. 
 
 ETAPA 1 - Cloud Function e Cloud StorageFazer a ingestão dos dados no Storage e depois via Cloud Function adicionar
 os dados a uma tabela no Bigquery.
