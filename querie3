@@ -1,0 +1,10 @@
+# 3 - Qual a Letalidade em % (mortes/casos confirmados) por Estado,
+# classificando os 5 primeiros estados com maior letalidade ?
+
+SELECT  st,
+        (SUM(deaths) * 100 / SUM(confirmed_cases)) as letalidade_porcentagem
+from `covid.caso`
+where deaths != 0 and confirmed_cases != 0
+group by st
+ORDER BY letalidade_porcentagem desc 
+LIMIT 5
