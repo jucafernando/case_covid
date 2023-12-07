@@ -1,0 +1,8 @@
+SELECT * FROM `tenacious-crane-406818.covid.obto_cartorio` LIMIT 1000
+
+# 1 - Qual o total de Casos Confirmados?
+
+select st, sum(confirmed_cases) from `covid.caso` 
+GROUP BY st
+order by st
+
