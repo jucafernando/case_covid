@@ -1,0 +1,8 @@
+# 2 - Qual a quantidade de Casos confirmados por Estado, classificando os 5
+# primeiros estados com mais casos?
+
+
+select st, sum(confirmed_cases) as confirmed_cases
+from `covid.caso` 
+GROUP BY st
+order by confirmed_cases desc limit 5 
