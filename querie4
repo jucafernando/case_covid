@@ -1,0 +1,10 @@
+# 4 - Qual a Taxa de Óbitos por cada mil habitantes, por estado , listar os 5
+# primeiros estados com maior concentração de óbitos por cada mil habitantes
+# (população) ?
+
+select st, deaths, conf_100k_inhabits
+from `covid.caso` 
+group by st, deaths, conf_100k_inhabits
+order by st
+desc 
+limit 5
