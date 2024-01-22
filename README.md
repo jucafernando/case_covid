@@ -61,11 +61,6 @@ NOTA: Para cada uma das perguntas descritas abaixo apresentar o código SQL e o 
 ![image](https://github.com/jucafernando/case_covid/assets/21082881/c9729cfd-b3b7-4a65-9f66-db8c7c6cedcf)
 ![image](https://github.com/jucafernando/case_covid/assets/21082881/bd8fcd63-7867-4191-8bfd-4a4e68b5303d)
 
-Diferente da maioria dos bancos de dados relacionais e por se tratar de um datawarehouse, o bigquery trabalha 
-um pouco diferente com relação a clausula group by. Eu tive que entender que se eu tenho duas colunas pra selecionar
-no bq eu preciso colocar essas duas colunas no group by. Então, eu consegui realizar a query que consiga agrupar pela 
-coluna estado(st).
-
 2 - Qual a quantidade de Casos confirmados por Estado, classificando os 5
 primeiros estados com mais casos?
 
