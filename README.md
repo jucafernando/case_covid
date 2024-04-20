@@ -73,8 +73,7 @@ classificando os 5 primeiros estados com maior letalidade ?
 
 ![image](https://github.com/jucafernando/case_covid/assets/21082881/33ad271c-324b-441d-ad00-047e051bad98)
 
-Essa query me deu um pouco de trabalho, devido ao que expliquei na primeira query. Eu queria agrupar os dados apenas por uma 
-coluna e fazer aparecer no resultado da query, mais duas colunas, totalizando três colunas. Tive fazer uma coluna de agragação
+Criei uma coluna de agragação
 contendo o calculo de pocentagem de letalidade e somar as duas colunas(mortes/casos), agrupando pelo campo de estado e ordenando 
 pela coluna de agregação letalidade_porcentagem.
 
