@@ -89,9 +89,7 @@ da coluna de concentração de habitantes e agrupar separando por estado, fazend
 A maioria das análises solicitavam um ranking dos 5 primeiros, de acordo com a informação solicitada.
 
 Encerro por aqui as análises. Os códigos e querys estão disponpveis em arquivos nesse repositório. 
-Em breve, continuarei mais duas análises e farei um dash no Google Studio, mas primeiro preciso de 
-um novo pc, pois o meu infelizmente não aguentou. 
-Nos vemos na próxima. 
+Em breve, continuarei mais duas análises e farei um dash no Google Studio. 
 
 
 
